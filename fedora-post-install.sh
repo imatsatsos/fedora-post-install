@@ -73,7 +73,11 @@ sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 # add io schedulers
 # disable xdg/etc/autostart
 # find intel/nvidia missing drivers and hw accel packages
- 
+# mess more with systemctl services and components
+# default dnf to Y
+# debloat more (drivers and firmware blobs)
+# implement cleaning of old kernels / boot images
+
 # remove gnome apps
 sudo dnf remove -y \
 gnome-calendar \
